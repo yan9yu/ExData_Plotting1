@@ -29,11 +29,13 @@ lines(subdata$DateTime,
       subdata$Sub_metering_3,
       type="l",
       col="blue")
+# set plot legend
 legend("topright",
        c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
        lwd=1,
        bty="n",
        col=c("black","red","blue"))
+
 plot(subdata$DateTime,
      subdata$Voltage,
      type="l",
@@ -45,4 +47,3 @@ plot(subdata$DateTime,
      xlab="datetime",
      ylab="Global_reactive_power")
 dev.off()
-
