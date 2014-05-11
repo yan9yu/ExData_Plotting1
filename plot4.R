@@ -45,3 +45,4 @@ plot(subdata$DateTime,
      xlab="datetime",
      ylab="Global_reactive_power")
 dev.off()
+

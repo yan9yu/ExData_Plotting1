@@ -16,3 +16,6 @@ plot(subdata$DateTime,
      ylab="Global Active Power(kilowatts)",
      axes=TRUE)
 dev.off()
+
+
+
